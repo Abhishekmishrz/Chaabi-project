@@ -1,0 +1,111 @@
+.navigation{
+  background-color: #0C58E6;
+  padding: 17px;
+  border-bottom-left-radius: 10px;
+  width:80.1% !important;
+  height: 92px;
+  margin-left: 257px;
+}
+
+.sidemenu{
+  height: 100%;
+  position: absolute;
+  background: #FFF;
+  box-shadow: 0px 11.633987426757812px 34.90196228027344px 0px rgba(17, 38, 146, 0.05);
+}
+
+body{
+  background-color: #e6eeff !important;
+  overflow-x: hidden;
+
+}
+.logo{
+  position: absolute;
+  margin-left: 0px;
+  padding: 0px 111px 37px 3px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  border-bottom: solid 2px #E7EFFF;
+  
+}
+
+.logo img{
+  margin-left: 50%;
+  width: 130px;
+  flex-shrink: 0;
+  margin-top: 14%;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+.link{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  margin-left: 15px;
+}
+
+li.active{
+  border-radius: 4.654px;
+  background: var(--foundation-blue-normal, #0D62FF);
+  box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px rgba(138, 146, 166, 0.30);
+}
+
+li.active a {
+  color: white;
+}
+
+.icon{
+  padding-right: 10px;
+}
+
+.profilename{
+  color: #FFF;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 67.2px */
+  text-transform: capitalize;
+  
+
+}
+.profilename h6{
+  font-weight: 0 !important;
+}
+
+.nav-menu{
+  margin-top: 48%;
+
+}
+
+/* header componets css */
+
+.data-box{
+  max-width: 82% !important;
+  margin-left: 16% !important;
+  margin-top: 1% !important;
+}
+
+.Chart1,.Chart2,.Chart3,.Chart4{
+  align-items: end;
+}
+
+/* this is from graph.js */
+
+
+.chart-box{
+  
+  max-width: 82% !important;
+  margin-left: 16% !important;
+  margin-top: 1% !important;
+}
+
+/* this is from footer.js */
