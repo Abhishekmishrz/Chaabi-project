@@ -1,5 +1,5 @@
 import Chart from 'react-apexcharts'
-import { useState } from 'react';
+import { useState ,useCallback} from 'react';
 const Footer = () => {
     const [state, setState] = useState({
         options: { colors: ['#018E42', '#ED1C24'], },
