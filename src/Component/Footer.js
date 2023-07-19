@@ -60,7 +60,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-5">
                         <div className="card h-100">
                             <div className="card-body">
                                 <h5 className="card-title">Quiz Passing %</h5>
@@ -71,7 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-5">
+                    <div className="col-7">
                         <div className="card h-100">
                             <div className="card-body">
                                 <h5 className="card-title">Daily training completions</h5>
